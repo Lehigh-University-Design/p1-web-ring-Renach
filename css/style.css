@@ -1,0 +1,49 @@
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url('https://www.toptal.com/designers/subtlepatterns/patterns/wood_pattern.png') repeat;
+    background-color: #333;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #000;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #fff 3px solid;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.about {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.about h2 {
+    margin-top: 0;
+}
+.spotify-link {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+.spotify-link a {
+    text-decoration: none;
+    color: #1DB954;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.spotify-link a:hover {
+    text-decoration: underline;
+}
+</style>
