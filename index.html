@@ -10,6 +10,10 @@
     <header>
         <div class="container">
             <h1>Bossman Dlow</h1>
+            <div class="pagination">
+                <a href="previous-page.html" class="previous">Previous</a>
+                <a href="next-page.html" class="next">Next</a>
+            </div>
         </div>
     </header>
 
@@ -23,5 +27,52 @@
             <a href="https://open.spotify.com/artist/your-spotify-artist-id" target="_blank">Listen to my music on Spotify</a>
         </div>
     </div>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Bar Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .scrollable-content {
+            width: 100%;
+            height: 400px; /* Set a fixed height for the scrollable area */
+            overflow: auto; /* Add scroll bars if content overflows */
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+        }
+        .scrollable-content p {
+            margin: 0 0 10px; /* Space between paragraphs */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Scrollable Content Example</h1>
+        <div class="scrollable-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper eleifend.</p>
+            <p>Phasellus id neque nec sapien cursus feugiat. Duis vel dolor quis nunc cursus bibendum. Morbi volutpat, lorem eget feugiat vulputate, velit dolor condimentum arcu, eu consequat orci mi et nunc.</p>
+            <p>Aenean vehicula, nulla ut aliquam condimentum, eros orci feugiat nunc, sit amet venenatis augue est nec velit. Morbi ac lacinia ipsum.</p>
+            <p>Nam vel bibendum mi. Nam sit amet urna nec mauris hendrerit sagittis non a libero. Curabitur quis fermentum elit. Curabitur accumsan nisl vel nisi auctor, id condimentum mi elementum.</p>
+            <!-- Add more content here to see the scroll bar in action -->
+        </div>
+    </div>
+</body>
+</html>
+
 </body>
 </html>

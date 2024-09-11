@@ -1,8 +1,8 @@
 <style>
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #1ec149;
     background: url('https://www.toptal.com/designers/subtlepatterns/patterns/wood_pattern.png') repeat;
     background-color: #333;
 }
@@ -13,10 +13,10 @@ body {
 }
 header {
     background: #000;
-    color: #fff;
+    color: #13bb3a;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #fff 3px solid;
+    border-bottom: #10b235 3px solid;
     text-align: center;
 }
 header h1 {
